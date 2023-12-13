@@ -1,0 +1,33 @@
+img {
+    width: 80px;
+    position: absolute;
+}
+
+h1 {
+    position: 0.1px;
+    background-color: blue;
+    text-align: center;
+    text-transform: initial;
+    -webkit-text-fill-color: antiquewhite;
+    font-size: 50px;
+}
+
+h2 {
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+li {
+    -webkit-text-fill-color: darkgreen;
+}
+
+p {
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+
+p1 {
+    -webkit-text-fill-color: rgb(246, 6, 6)
+}
