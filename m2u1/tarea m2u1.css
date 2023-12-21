@@ -1,0 +1,63 @@
+img {
+    width: 80px;
+    position: absolute;
+}
+
+h1 {
+    position: 0.1px;
+    background-color: blue;
+    text-align: center;
+    text-transform: initial;
+    -webkit-text-fill-color: antiquewhite;
+    font-size: 50px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    width: 450px;
+    height: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin: 70px;
+    padding: 25px;
+    box-shadow: -15px -11px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -15px -11px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -15px -11px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 101px 101px 101px 101px;
+    -webkit-border-radius: 101px 101px 101px 101px;
+    -moz-border-radius: 101px 101px 101px 101px;
+}
+
+
+ol {
+    font-size: 30px;
+    text-shadow: -5px 4px 2px rgba(10, 251, 41, 1);
+    column-count: 3;
+    column-gap: 20px;
+}
+
+p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+
+p1 {
+    -webkit-text-fill-color: rgb(246, 6, 6)
+}
+
+.caja {
+    width: 300px;
+    height: 115px;
+    background-color: aqua;
+    margin: 70px;
+    padding: 25px;
+    box-shadow: -15px -11px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -15px -11px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -15px -11px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 101px 101px 101px 101px;
+    -webkit-border-radius: 101px 101px 101px 101px;
+    -moz-border-radius: 101px 101px 101px 101px;
+}
