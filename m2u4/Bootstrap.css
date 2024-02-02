@@ -1,0 +1,16 @@
+.container{
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.container-fluid{
+    height: 60px;
+    font-size: 30px;
+     
+}
+
+.form-select{
+    height: 60px;
+}
