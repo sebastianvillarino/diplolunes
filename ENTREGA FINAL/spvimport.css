@@ -1,0 +1,265 @@
+/*
+.sumana-bold {
+  font-family: "Sumana", serif;
+  font-weight: 700;
+  font-style: normal;
+} 
+*/
+
+body {
+    font-family: "Sumana", serif;
+    font-size: 16px;
+    line-height: 20px;
+    background: rgb(163, 120, 139);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(58, 58, 105, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+header {
+    background-color: rgb(81, 81, 253);
+    padding: 20PX 0;
+}
+
+header h1 {
+    color: rgb(25, 20, 42);
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: rgb(77, 111, 140);
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+    display: block;
+    padding: 3px 6px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: rgb(121, 133, 134);
+    clear: both;
+    color: rgb(242, 239, 239);
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+nav ul li a.activo {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: rgb(169, 169, 171);
+    font-size: larger, 30px;
+}
+
+h4 {
+    color: rgb(9, 23, 23);
+    font-feature-settings: "curs", 10px;
+}
+
+.unite {
+    font-size: 10px;
+    display: block;
+}
+
+/*inicio home*/
+
+.prestaciones {
+    width: 60%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.dedicados {
+    width: 25%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prestaciones .dedicacion {
+    font-size: 22px;
+    display: block;
+}
+
+.prestaciones .trabajo {
+    font-size: 16px;
+    display: block;
+}
+
+.dedicados .romper {
+    font-size: 13px;
+    display: block;
+}
+
+/*fin home*/
+
+/*inicio quienes somo*/
+
+.historia p {
+    color: blanchedalmond;
+    font-size: 12px;
+}
+
+.persona {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 45%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: rgb(235, 206, 206);
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona img {
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.persona h5,
+.persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: black;
+}
+
+.persona p {
+    font-size: 10px;
+    color: rgb(26, 7, 1);
+}
+
+/*fin quienes somo*/
+
+/*inicio servicios*/
+
+.servicios {
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.servicios .info h3 {
+    font-size: large;
+    border-bottom: 1px;
+    padding-bottom: 10px;
+}
+
+.servicios .info p {
+    font-size: 15px;
+}
+
+.servicios img {
+    border-radius: 20px;
+    display: block;
+    max-width: 300px;
+}
+
+/*fin servicios*/
+
+/*inicio contacto*/
+
+.contacto {
+    display: flex;
+    gap: 20px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li {
+
+    font-size: 12px;
+}
+
+.formulario p {
+    display: flex;
+    color: aliceblue;
+}
+
+.formulario p label {
+    min-width: 80px;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+}
+
+.formulario p label {
+    display: flex;
+    align-items: center;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type=submit] {
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.formulario input[type=submit]:hover {
+    background-color: aquamarine;
+}
+  
+
+
+
+/*fin contacto*/
