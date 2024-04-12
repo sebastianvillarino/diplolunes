@@ -10,7 +10,6 @@ body {
     font-family: "Sumana", serif;
     font-size: 16px;
     line-height: 20px;
-    background: rgb(163, 120, 139);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(58, 58, 105, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
@@ -236,10 +235,6 @@ h4 {
     width: 100%;
 }
 
-.formulario p label {
-    display: flex;
-    align-items: center;
-}
 
 .formulario textarea {
     resize: none;
