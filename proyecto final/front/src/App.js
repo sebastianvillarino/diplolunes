@@ -7,11 +7,11 @@ import Header from './componentes/layout/Header';
 import Nav from './componentes/layout/Nav';
 import Footer from './componentes/layout/Footer';
 
-import Homepage from "./pages/ Homepage";
-import Quienessomos from "./pages/ Quienessomes";
-import Servicios from "./pages/ Servicios";
-import Novedades from "./pages/ Novedades";
-import Contacto from "./pages/ Contacto";
+import Homepage from "./pages/Homepage";
+import Quienessomos from "./pages/Quienessomos";
+import Servicios from "./pages/Servicios";
+import Novedades from "./pages/Novedades";
+import Contacto from "./pages/Contacto";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Header />
       <BrowserRouter>
-        <Nav></Nav>
+        <Nav>
         <Routes>
           <Route path='Homepage' element={<Homepage />} />
           <Route path='Quienessomos' element={<Quienessomos />} />
@@ -27,6 +27,7 @@ function App() {
           <Route path='Novedades' element={<Novedades />} />
           <Route path='ContactoC' element={<Contacto />} />
         </Routes>
+        </Nav>
       </BrowserRouter>
 
       <Footer />
